@@ -1,0 +1,33 @@
+.header {
+	background-color: transparent;
+	padding: 20px 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+
+	z-index: 9;
+
+	transition: all ease-in-out 0.4s 0s;
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	@include tablet {
+		background-color: #222;
+	}
+
+	@include mobile {
+		padding: 10px 0;
+	}
+
+}
+
+.header.fixxed {
+	background-color: #222;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
+}

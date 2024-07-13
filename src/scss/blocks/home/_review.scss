@@ -1,0 +1,27 @@
+.review {
+  padding: 60px 0 15px 0;
+  text-align: center;
+
+  .decor {
+    margin-bottom: 10px;
+  }
+
+  @include mobile {
+      padding: 30px 0 15px 0;
+  }
+}
+
+.review__title {
+  margin-bottom: 10px;
+}
+
+.review__subtitle {
+  color: #666;
+
+  font-family: var(--font-main);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px; /* 200% */
+
+  margin-bottom: 60px;
+}

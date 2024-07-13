@@ -1,0 +1,30 @@
+.icons-wrapper {
+	padding: 30px 0;
+	display: flex;
+	column-gap: 30px;
+}
+
+.icon {
+	// fill: transparent;
+	// stroke: transparent;
+	width: 62px;
+	height: 62px;
+}
+.icon--check, .icon--flask, .icon--industry, .icon--money {
+	fill: #000;
+}
+.icon--wallet, .icon--certification, .icon--close {
+	fill: brown;
+}
+.icon--close {
+	width: 30px;
+	height: 30px;
+}
+
+.icon--buy {
+	fill: darkred;
+
+	width: 30px;
+	height: 30px;
+}
+

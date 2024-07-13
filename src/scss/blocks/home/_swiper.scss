@@ -1,0 +1,78 @@
+.products .swiper {
+    width: 100%;
+    padding-bottom: 50px;
+
+    //@include tablet {
+    //    padding-bottom: 25px;
+    //}
+}
+
+.products .swiper-slide {
+    height: auto;
+}
+.products .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 15px;
+
+    //@include tablet {
+    //    display: none;
+    //}
+}
+
+.products .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    background-color: rgb(0, 0, 0, 0.25);
+    transition: all ease-in 0.3s 0s;
+
+    &:hover {
+        background-color: black;
+        opacity: 1;
+    }
+} 
+.products .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active , .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active  {
+    background-color: rgb(0, 0, 0, 0.75);
+}
+
+
+
+
+
+
+.review .review-swiper {
+    position: relative;
+    padding-bottom: 112px;
+    overflow: hidden;
+    width: 100%;
+
+    //@include tablet {
+    //    padding-bottom: 0;
+    //}
+}
+
+.review .swiper-slide {
+    height: auto;
+}
+
+.review .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    top: unset;
+    bottom: -3px;
+
+    //@include tablet {
+    //    display: none;
+    //}
+}
+
+.review .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    background-color: rgb(249, 70, 29, 0.25);
+    transition: all ease-in 0.3s 0s;
+
+    width: 12px;
+    height: 12px;
+
+    &:hover {
+        background-color: #f9461d;
+        opacity: 1;
+    }
+} 
+
+.review .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active , .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active  {
+    background-color: rgb(249, 70, 29, 0.75);
+}

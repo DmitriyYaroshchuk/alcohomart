@@ -1,0 +1,26 @@
+[
+    {
+        "id": 19,
+        "img": "vodka-01.jpg",
+        "title": "Горілка FINLANDIA 'Сніжинка' 3л",
+        "price": "260"
+    },
+    {
+        "id": 20,
+        "img": "vodka-02.jpg",
+        "title": "Горілка FINLANDIA 'Лайм' 2л' 5л",
+        "price": "260"
+    },
+    {
+        "id": 21,
+        "img": "vodka-03.jpg",
+        "title": "Горілка FINLANDIA 'Журавлина' 2л",
+        "price": "260"
+    },
+    {
+        "id": 22,
+        "img": "vodka-04.jpg",
+        "title": "Горілка FINLANDIA 'Смородина' 2л",
+        "price": "260"
+    }
+]

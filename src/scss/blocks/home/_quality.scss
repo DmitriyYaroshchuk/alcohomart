@@ -1,0 +1,36 @@
+.quality {
+  padding: 60px 0;
+}
+.quality__title {
+  color: #666;
+  font-family: var(--font-main);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 39.6px; /* 110% */
+  margin-bottom: 22px;
+  text-align: left;
+}
+.quality__content {
+  display: grid;
+  gap: 20px;
+
+  color: #666;
+  font-family: var(--font-main);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px; /* 200% */
+}
+.quality__wrapper-top {
+  display: flex;
+  justify-content: space-between;
+
+  @include tablet {
+      flex-direction: column;
+  }
+  
+  p {
+    max-width: 900px;
+    width: 100%;
+  }
+
+}

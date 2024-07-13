@@ -1,0 +1,77 @@
+.basket-card {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+
+  margin-bottom: 35px;
+
+  tr {
+    border-bottom: 1px solid #eee;
+    text-align: left;
+  }
+
+  td {
+    border: 1px solid #ed832b;
+    padding: 5px 10px;
+    text-align: center;
+
+    color: #333;
+    font-family: var(--font-accent);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 33px; /* 110% */
+
+    picture {
+      display: block;
+      width: 150px;
+    }
+  }
+}
+
+.basket-cart__title {
+  color: #333;
+
+  font-family: var(--font-accent);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.2px; /* 110% */
+  text-transform: uppercase;
+}
+
+
+
+.basket-cart__minus,
+.basket-cart__plus {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  color: whitesmoke;
+  border-radius: 3px;
+
+  margin: 0 auto;
+}
+
+.basket-cart__price {
+  font-family: var(--font-main);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.basket-cart__count {
+  font-family: var(--font-main);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.basket-cart__total {
+  text-shadow: 0px 0px 1px #008000;
+  font-family: var(--font-main);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px; /* 136.364% */
+}

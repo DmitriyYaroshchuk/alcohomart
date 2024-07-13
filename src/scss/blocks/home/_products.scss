@@ -1,0 +1,22 @@
+.products {
+    padding-top: 30px;
+}
+.products__title {
+    margin-bottom: 21px;
+
+    @include tablet {
+        margin-bottom: 25px;
+    }
+}
+.products__content {
+    border-top: 1px solid #F8451E;
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
+.products__subtitle {
+    margin-bottom: 10px;
+
+    @include tablet {
+        margin-bottom: 20px;
+    }
+}
